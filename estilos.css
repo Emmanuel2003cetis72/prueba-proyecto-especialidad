@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+header{ 
+    background:purple;
+    height: 100px; 
+    margin: 0px;
+    line-height: 60px;
+    color: white;
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+nav{
+    background: yellow;
+    height: 50px;
+    border-bottom: 3px solid black;
+    line-height: 25px;
+    
+}
+    nav a:hover{background-color:white;
+        padding: 2px;
+}
+
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    color: black;
+}
+
+.clearfix{
+    clear:both;
+}
+#content{
+    float:left;
+    width: 100%;
+    min-height: 500px;
+    background: red;
+
+}
+
+.article {
+    font-size: 25px;
+    color:black;
+}
+
+
+footer{
+    background: lawngreen;
+    color: black;
+    height: 50px;
+    line-height: 50px;
+    border-top: 3px solid black;
+}
